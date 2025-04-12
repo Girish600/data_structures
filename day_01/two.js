@@ -191,4 +191,4 @@ const findComman=(arr1,arr2,arr3)=>{
     return result
 }
 
-console.log(findComman(arr1,arr2,arr3))
+// console.log(findComman(arr1,arr2,arr3))
