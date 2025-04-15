@@ -15,3 +15,10 @@ const isAnagram=(one,two)=>{
 }
 
 console.log(isAnagram(str1,str2))
+
+const isPalindrome=(str)=>{
+    let arr= str.split('').reverse().join('');
+    return arr===str
+}
+
+console.log(isPalindrome('krish'))
